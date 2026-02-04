@@ -1,0 +1,99 @@
+:root {
+  --primary: #1b7f5a;      /* Deep professional green */
+  --primary-light: #e6f4ef;
+  --accent: #145c43;
+  --text-dark: #1f2933;
+  --text-muted: #5f6c72;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  color: var(--text-dark);
+  background: #ffffff;
+  line-height: 1.65;
+}
+
+/* ---------- NAV ---------- */
+nav {
+  background: var(--primary);
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+section:nth-of-type(even) {
+  background: var(--primary-light);
+  border-radius: 12px;
+}
+
+/* ---------- HEADINGS ---------- */
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: var(--accent);
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* ---------- TEXT ---------- */
+p {
+  font-size: 16px;
+  color: var(--text-dark);
+}
+
+strong {
+  color: var(--accent);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #dce5e1;
+  margin: 35px 0;
+}
+
+/* ---------- LINKS ---------- */
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 35px;
+  font-size: 14px;
+  color: var(--text-muted);
+  border-top: 1px solid #e5e7eb;
+  margin-top: 60px;
+}
